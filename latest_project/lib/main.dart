@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:latest_project/routes/myroutes.dart';
-
 import 'package:latest_project/view/splash.dart';
 
 void main() {
