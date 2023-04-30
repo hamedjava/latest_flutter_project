@@ -39,7 +39,7 @@ class _SplashState extends State<Splash> {
     Future.delayed(
       const Duration(seconds: 3),
       () {
-        Navigator.pushNamed(context, MyRoutes.myhome);
+        Navigator.pushNamed(context, MyRoutes.login);
       },
     );
   }
