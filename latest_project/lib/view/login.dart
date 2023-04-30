@@ -113,7 +113,7 @@ class _LoginState extends State<Login> {
                     padding: const EdgeInsets.all(8.0),
                     child: Row(children: [
                       Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(2.0),
                         child: Column(
                           children: const [Text("Or Login With")],
                         ),
@@ -134,14 +134,14 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(2.0),
                         child: Column(
                           children: [
                             IconButton(
                               onPressed: () {},
                               icon: const Icon(
-                                Icons.facebook,
-                                color: Colors.blue,
+                                Icons.photo_camera,
+                                color: Colors.redAccent,
                               ),
                               color: Colors.blue,
                             )
@@ -149,14 +149,14 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(2.0),
                         child: Column(
                           children: [
                             IconButton(
                               onPressed: () {},
                               icon: const Icon(
-                                Icons.facebook,
-                                color: Colors.blue,
+                                Icons.wechat_sharp,
+                                color: Colors.green,
                               ),
                               color: Colors.blue,
                             )
