@@ -70,7 +70,10 @@ class _LoginState extends State<Login> {
                     padding: EdgeInsets.all(8.0),
                     child: Text(
                       "Login",
-                      style: TextStyle(color: Colors.black87, fontSize: 32),
+                      style: TextStyle(
+                        color: Colors.black87,
+                        fontSize: 32,
+                      ),
                     ),
                   ),
                   Padding(
@@ -106,6 +109,62 @@ class _LoginState extends State<Login> {
                           context.read<HomeState>().navigateToHome();
                         }),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(children: [
+                      Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Column(
+                          children: const [Text("Or Login With")],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Column(
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: const Icon(
+                                Icons.facebook,
+                                color: Colors.blue,
+                              ),
+                              color: Colors.blue,
+                            )
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Column(
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: const Icon(
+                                Icons.facebook,
+                                color: Colors.blue,
+                              ),
+                              color: Colors.blue,
+                            )
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Column(
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: const Icon(
+                                Icons.facebook,
+                                color: Colors.blue,
+                              ),
+                              color: Colors.blue,
+                            )
+                          ],
+                        ),
+                      ),
+                    ]),
+                  )
                 ],
               ),
             ),
